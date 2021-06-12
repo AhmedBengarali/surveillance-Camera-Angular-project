@@ -1,0 +1,132 @@
+<!-- Sidenav -->
+<app-menu></app-menu>
+<div class="main-content">
+    <!-- Top navbar -->
+    <app-profile-menu></app-profile-menu>
+    <!-- Pages -->
+    <div class="header bg-gradient-primary pb-8 pt-5 pt-md-8"></div>
+    <div class="container-fluid mt--7">
+        <div class="row">
+            <div class="col">
+                <div class="card shadow">
+                    <div class="card-header border-0 d-flex justify-content-between align-items-center">
+                        <h3 class="mb-0">Known visitors</h3>
+                        <a class="btn btn-primary" routerLink="/add-visitor">Add visitor</a>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table align-items-center table-flush">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Telephone</th>
+                                    <th scope="col">Poste</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="media align-items-center">
+                                            <a href="javascript:void(0)" class="avatar rounded-circle mr-3">
+                                                <img alt="Image placeholder" src="../assets/img/theme/syrine.jpg">
+                                            </a>
+                                            <div class="media-body">
+                                                <span class="mb-0 text-sm">Syrine Hammami</span>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <td>
+                                        syrinehammami@gmail.com
+                                    </td>
+                                    <td>
+                                        56618400
+                                    </td>
+                                    <td>
+                                        Visiteur
+                                    </td>
+                                    <td class="text-right">
+                                        <div ngbDropdown placement="bottom-right">
+                                            <a class="btn btn-sm btn-icon-only text-light" ngbDropdownToggle>
+                                                <i class="fas fa-ellipsis-v"></i>
+                                            </a>
+                                            <div ngbDropdownMenu class=" dropdown-menu-right dropdown-menu-arrow">
+                                                <a class="dropdown-item" routerLink="/edit-visitor">Modifier</a>
+                                                <a class="dropdown-item">Supprimer</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="media align-items-center">
+                                            <a href="javascript:void(0)" class="avatar rounded-circle mr-3">
+                                                <img alt="Image placeholder" src="../assets/img/theme/ahmed.jpg">
+                                            </a>
+                                            <div class="media-body">
+                                                <span class="mb-0 text-sm">Ahmed Ben Garali</span>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <td>
+                                        ahmed.garali@yahoo.fr
+                                    </td>
+                                    <td>
+                                        52890728
+                                    </td>
+                                    <td>
+                                        Visiteur
+                                    </td>
+                                    <td class="text-right">
+                                        <div ngbDropdown placement="bottom-right">
+                                            <a class="btn btn-sm btn-icon-only text-light" ngbDropdownToggle>
+                                                <i class="fas fa-ellipsis-v"></i>
+                                            </a>
+                                            <div ngbDropdownMenu class=" dropdown-menu-right dropdown-menu-arrow">
+                                                <a class="dropdown-item" routerLink="/edit-visitor">Modifier</a>
+                                                <a class="dropdown-item">Supprimer</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="media align-items-center">
+                                            <a href="javascript:void(0)" class="avatar rounded-circle mr-3">
+                                                <img alt="Image placeholder" src="../assets/img/theme/siwar.jpg">
+                                            </a>
+                                            <div class="media-body">
+                                                <span class="mb-0 text-sm">Siwar Hosni</span>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <td>
+                                        siwarhosni@gmail.com
+                                    </td>
+                                    <td>
+                                        28623916
+                                    </td>
+                                    <td>
+                                        Visiteur
+                                    </td>
+                                    <td class="text-right">
+                                        <div ngbDropdown placement="bottom-right">
+                                            <a class="btn btn-sm btn-icon-only text-light" ngbDropdownToggle>
+                                                <i class="fas fa-ellipsis-v"></i>
+                                            </a>
+                                            <div ngbDropdownMenu class=" dropdown-menu-right dropdown-menu-arrow">
+                                                <a class="dropdown-item" routerLink="/edit-visitor">Modifier</a>
+                                                <a class="dropdown-item">Supprimer</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
